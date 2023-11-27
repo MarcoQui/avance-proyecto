@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__banner">
+            <div class="header__menu">
+                <div class="menu-all">
+                    <div class="menu__logo">
+                        <a href="index.html"><img src="./imagenes/logo.png" alt=""></a>
+                    </div>
+                    <nav class="menu__items">
+                        <a href="#content">¿QUIENES SOMOS?</a>
+                        <a href="#ultimo">LO ÚLTIMO</a>
+                        <a href="">MODELOS</a>
+                        <a href="#contactanos">CONTACTANOS</a>
+                    </nav>
+                </div>
+                <div class="menu__usuario">
+                    <div class="menu__usuario-buscar">
+                        <input type="text" placeholder="Buscar aquí">
+                    </div>
+                    <div class="menu__usuario-item">
+                        <a href=""><img src="./imagenes/search.svg" alt="buscar"></a>
+                        <a href=""><img src="./imagenes/user.svg" alt="usuario"></a>
+                        <a class="carri" href="./carrito.html"><img src="./imagenes/bag.svg" alt="carrito"> <p class="numerito">0</p></a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="wrapper">
+        <aside>
+            <header>
+                <img src="./imagenes/logo.png" alt="">
+            </header>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <button id="todos" class="boton-menu boton-categoria active"><i class="bi bi-hand-index-thumb-fill"></i>Todos los productos</button>
+                    </li>
+                    <li>
+                        <button id="polera" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>Poleras</button>
+                    </li>
+                    <li>
+                        <button id="polo" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>Polos</button>
+                    </li>
+                    <li>
+                        <button id="gorra" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>Gorras</button>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <main class="main">
+            <h2 class="titulo-principal" id="titulo-principal">Todos los Productos</h2>
+            <div id="contenedor-producto" class="contenedor-producto">
+                <!-- Los productos se agregan desde JavaScript -->
+            </div>
+        </main>
+    </div>
+    <script src="./agregar-all.js"></script>
+</body>
+</html>

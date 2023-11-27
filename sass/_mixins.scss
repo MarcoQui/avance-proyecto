@@ -1,0 +1,23 @@
+@use 'primordial' as v;
+
+@mixin phone{
+    @media (max-width: v.$phone){
+        @content;
+    }
+}
+@mixin tablet{
+    @media (max-width: v.$tablet){
+        @content;
+    }
+}
+@mixin desktop{
+    @media (max-width: v.$desktop){
+        @content;
+    }
+}
+@mixin desktopLarge{
+    @media (max-width: v.$desktopLarge){
+        @content;
+    }
+}
+

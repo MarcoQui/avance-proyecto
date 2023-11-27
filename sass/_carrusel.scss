@@ -1,0 +1,38 @@
+@use 'primordial' as v;
+@use 'mixins' as m;
+
+.carousel{
+    width: 100%;
+}
+.logo__largo{
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    width: 50%;
+}
+.carousel-control-prev{
+    transition: 0.5s;
+}
+.carousel-control-prev:hover{
+    background-color: rgba(160, 141, 118, 0.384);
+    transition: 0.5s;
+}
+.carousel-control-next{
+    transition: 0.5s;
+}
+.carousel-control-next:hover{
+    background-color: rgba(160, 141, 118, 0.384);
+    transition: 0.5s;
+}
+.d-block{
+    height: 600px;
+    @include m.desktop{
+        height: 500px;
+    }
+    @include m.tablet{
+        height: 400px;
+    }
+    @include m.phone{
+        height: 300px;
+    }
+}

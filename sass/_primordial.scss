@@ -1,0 +1,77 @@
+:root{
+    --primary: #9c27b0;
+    --darkPrimary: #89119d;
+    --secondary: #ffce00;
+    --darkSecondary: rgb(233, 287, 2);
+    --white: #fff;
+    --black: #000;
+
+    --primaryfont: 'Staatliches', cursive;
+}
+:root {
+    --clr-main: #4b33a8;
+    --clr-main-dark: #221655;
+    --clr-white: #ececec;
+    --clr-gray: #e2e2e2;
+    --clr-red: #961818;
+}
+//tamaños de media Queries
+
+$phone: 600px;
+$tablet: 820px;
+$desktop: 1200px;
+$desktopLarge: 1400px;
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(155, 59, 59, 0.356);
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+a{
+    text-decoration: none;
+}
+p{
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1,
+h2,
+h3{
+    font-family: var(--primaryfont);
+    color: var(--black);
+}
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 3.2rem;
+}
+h3{
+    font-size: 2.4rem;
+}
+img{
+    width: 100%;
+}
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
