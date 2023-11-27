@@ -20,4 +20,9 @@
         @content;
     }
 }
+@mixin maxdesktop{
+    @media (min-width: v.$maxdesktop){
+        @content;
+    }
+}
 
