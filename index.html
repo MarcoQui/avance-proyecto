@@ -91,22 +91,22 @@
             <h1>CONTACTANOS</h1>
             <div class="contactanos">
                 <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1091.1364505507056!2d-76.95630174665443!3d-12.210968947803325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105b9c6c08f3791%3A0xe05de961f89bd9a8!2sAsociacion%20de%20vivienda%20San%20Juan%20de%20miraflores%20Mz%20C%20lote%2011!5e0!3m2!1ses!2spe!4v1696836520077!5m2!1ses!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <form action="https://formsubmit.co/marcoquinonesinga@gmail.com" method="post" class="contactanos__form">
-                    <label for="">
-                        <span>Nombre</span>
-                        <input class="complet" type="text" name="name">
-                    </label>
-                    <label for="">
-                        <span>Email</span>
-                        <input class="complet" type="email" name="email">
-                    </label>
-                    <label for="">
-                        <span>Mensaje</span>
-                        <textarea name="" id="" cols="30" rows="10" placeholder="Escribe tu mensaje..." name="textarea"></textarea>
-                    </label>
-                    <label for="">
+                <form class="formulario">
+                    <div class="campo">
+                        <label for="nombre">Nombre</label>
+                        <input class="complet" id="nombre" type="text">
+                    </div>
+                    <div class="campo">
+                        <label for="email">Email</label>
+                        <input class="complet" id="email" type="email">
+                    </div>
+                    <div class="campo">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" rows="6"  placeholder="Escribe tu mensaje..."></textarea>
+                    </div>
+                    <div class="campo">
                         <input class="enviar" type="submit" value="Enviar Mensaje">
-                    </label>
+                    </div>
                 </form>
                 <div class="contactanos__redes">
                     <img src="./imagenes/instagram.png" alt="">
@@ -118,5 +118,6 @@
         </div>
     </main>
     <script src="./agregar-new.js"></script>
+    <script src="./submit.js"></script>
 </body>
 </html>

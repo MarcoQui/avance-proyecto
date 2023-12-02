@@ -107,15 +107,15 @@
         margin: 2rem 0;
     }
 }
-.contactanos__form{
+.formulario{
     margin: 0 5rem;
     height: 100%;
 }
-.contactanos__form label{
+.campo{
     display: flex;
     flex-direction: column;
 }
-.contactanos__form label span{
+.campo label{
     font-family: var(--primaryfont);
     font-size: 2.5rem;
     margin-left: 1rem;
@@ -134,7 +134,7 @@ textarea{
 .enviar{
     border: 0px;
     height: 5rem;
-    margin-top: 1rem;
+    margin: 1rem 0;
     background-color: #000;
     color: #fff;
     font-size: 2.5rem;
@@ -160,4 +160,16 @@ textarea{
 .shadow{
     border-bottom: 10px solid rgba(121, 35, 35, 0.281);
     border-right: 10px solid black;
+}
+.error {
+    background-color: rgb(185, 0, 0);
+    text-align: center;
+    padding: 0.8rem;
+    color: white;
+}
+.correcto {
+    background-color: rgb(74, 185, 0);
+    text-align: center;
+    padding: 0.8rem;
+    color: white;
 }
